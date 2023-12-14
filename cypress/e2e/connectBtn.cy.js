@@ -9,5 +9,6 @@ describe(' Kuadratik Web Test', () => {
     cy.get(':nth-child(4) > input').type('oadelua@gmail.com')
     cy.get('textarea.connect_Iconinside__DyLxg').click()
     cy.get('textarea.connect_Iconinside__DyLxg').type('This is an automated message to Kuadratik using cypress. Please acknowledge receipt of email. Thank you!')
+    cy.wait (3000)
   })
 })
